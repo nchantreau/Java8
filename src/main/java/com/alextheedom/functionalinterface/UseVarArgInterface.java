@@ -7,14 +7,13 @@ import java.util.Arrays;
  */
 public class UseVarArgInterface {
 
-static String useOp(){
+    static String useOp() {
 
-    VarArgInterface var = Arrays::toString;
-    // VarArgInterface var = Object::toString;
-    var = args -> String.valueOf(args.length);
+        VarArgInterface var = Arrays::toString;
+        // VarArgInterface var = Object::toString;
+        var = args -> String.valueOf(args.length);
 
-
-    return var.op(new String[]{"", ""});
-}
+        return var.op(new String[] { "", "" });
+    }
 
 }

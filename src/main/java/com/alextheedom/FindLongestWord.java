@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class FindLongestWord {
 
-
     public static void main(String... args) {
 
         List<String> words = new ArrayList<>();
@@ -26,7 +25,6 @@ public class FindLongestWord {
         int max = words.stream().mapToInt(String::length).max().getAsInt();
         System.out.println(max);
 
-
         String i = words.stream().reduce((s, s2) -> {
             if (s.length() > s2.length()) {
                 return s;
@@ -35,7 +33,6 @@ public class FindLongestWord {
             }
         }).get();
         System.out.println(i);
-
 
         int y = words.stream()
                 .mapToInt(String::length)
@@ -48,10 +45,5 @@ public class FindLongestWord {
                 }).getAsInt();
         System.out.println(y);
 
-
-
-
     }
-
-
 }

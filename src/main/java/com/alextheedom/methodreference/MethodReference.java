@@ -11,7 +11,6 @@ public class MethodReference {
 //    Reference to an instance method of an arbitrary object of a particular type 	ContainingType::methodName
 //    Reference to a constructor 	ClassName::new
 
-
     public static void main(String... args) {
 //        System.out.print(Person::names);
 //
@@ -21,6 +20,5 @@ public class MethodReference {
 //
 //        Person person = Person::new;
     }
-
 
 }

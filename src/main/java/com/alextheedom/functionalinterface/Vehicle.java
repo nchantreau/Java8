@@ -5,13 +5,10 @@ package com.alextheedom.functionalinterface;
  */
 public interface Vehicle {
 
-
     void drive();
 
-    default public void fly(){
+    default public void fly() {
         System.out.println("I can fly now.");
     }
-
-
 
 }

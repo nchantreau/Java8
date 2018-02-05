@@ -5,5 +5,5 @@ package com.alextheedom.functionalinterface;
  */
 @FunctionalInterface
 public interface VarArgInterface {
-     String op(String...args);
+    String op(String... args);
 }

@@ -5,7 +5,7 @@ package com.alextheedom.methodreference;
  */
 public class Person {
 
-    public static String names(){
+    public static String names() {
         return "Alex";
     }
 

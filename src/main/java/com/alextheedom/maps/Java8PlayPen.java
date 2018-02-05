@@ -7,10 +7,9 @@ import java.util.*;
  */
 public class Java8PlayPen {
 
-
     public static void main(String... args) {
-//        ComputeIfAbsent1();
-//        ComputeIfAbsent2();
+        // ComputeIfAbsent1();
+        // ComputeIfAbsent2();
 
         Student student1 = new Student("John", "Smith", 10);
         Student student2 = new Student("Adrian", "Smith", 3);
@@ -46,6 +45,5 @@ public class Java8PlayPen {
         preferences.computeIfAbsent("Alex", k -> new ArrayList<>()).add("Blue");
         System.out.println(preferences);
     }
-
 
 }
